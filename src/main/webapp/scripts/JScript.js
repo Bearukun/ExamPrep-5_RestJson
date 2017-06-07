@@ -7,7 +7,7 @@ var fetchedPerson;
 //Function to fetch people from the database through the REST Api.
 function fetchPeople() {
 
-    var url = "http://localhost:8084/ExamPrep-5_RestJson/api/addresses/100/lname,fname,street,city";
+    var url = "https://46.101.255.231.xip.io/ExamPrep-5_RestJson/api/addresses/100/lname,fname,street,city";
     var conf = {method: 'get'};
     var promise = fetch(url, conf);
 
